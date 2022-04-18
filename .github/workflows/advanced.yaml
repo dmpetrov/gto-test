@@ -1,4 +1,4 @@
-name: ML-Production-Deplyment
+name: Advanced-ML-Production-Deplyment
 on:
   push:
     tags:
