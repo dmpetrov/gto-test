@@ -1,0 +1,16 @@
+name: ML-Production-Deplyment
+on:
+  push:
+    tags:
+      - model-prod*
+jobs:
+  pull-model:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+      - name: Step-Deploy
+        run: |
+          echo "====== Production Deployment ====="
