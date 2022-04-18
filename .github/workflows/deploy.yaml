@@ -4,7 +4,7 @@ on:
     tags:
       - model-prod
 jobs:
-  pull-model:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
