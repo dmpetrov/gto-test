@@ -2,7 +2,7 @@ name: ML-Production-Deplyment
 on:
   push:
     tags:
-      - model-prod
+      - mod#prod
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -13,4 +13,4 @@ jobs:
           python-version: "3.9"
       - name: Step-Deploy
         run: |
-          echo "====== Production Deployment ====="
+          echo "====== Production MOD#PROD ====="
