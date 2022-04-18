@@ -2,7 +2,7 @@ name: ML-Production-Deplyment
 on:
   push:
     tags:
-      - model-prod*
+      - model-prod
 jobs:
   pull-model:
     runs-on: ubuntu-latest
